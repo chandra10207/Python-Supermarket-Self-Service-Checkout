@@ -50,7 +50,7 @@ class CheckoutRegister():
                     if(paid < total):
                         due = total - paid
                         total = due
-                        print("Payment due: ",due)
+                        print("Payment due: $"+str(due))
                         due = True
                         continue   
                     else:
